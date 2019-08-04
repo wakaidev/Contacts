@@ -35,6 +35,7 @@ class ContactLIstController: UITableViewController {
         
         cell.textLabel?.text = contact.firstName
         cell.imageView?.image = contact.image
+        cell.detailTextLabel?.text = contact.lastName
         
         return cell
     }
