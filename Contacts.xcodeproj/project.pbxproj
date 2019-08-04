@@ -15,6 +15,7 @@
 		1F0DC16722F689C500887BB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0DC16522F689C500887BB4 /* LaunchScreen.storyboard */; };
 		1F0DC16F22F6943C00887BB4 /* ContactsDB.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F0DC16E22F6943C00887BB4 /* ContactsDB.plist */; };
 		1F0DC17122F694A600887BB4 /* PlistLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0DC17022F694A600887BB4 /* PlistLoader.swift */; };
+		1F0DC17322F6956300887BB4 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0DC17222F6956300887BB4 /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		1F0DC16822F689C500887BB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F0DC16E22F6943C00887BB4 /* ContactsDB.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ContactsDB.plist; sourceTree = "<group>"; };
 		1F0DC17022F694A600887BB4 /* PlistLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlistLoader.swift; sourceTree = "<group>"; };
+		1F0DC17222F6956300887BB4 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				1F0DC16022F689C200887BB4 /* Main.storyboard */,
 				1F0DC16322F689C500887BB4 /* Assets.xcassets */,
 				1F0DC17022F694A600887BB4 /* PlistLoader.swift */,
+				1F0DC17222F6956300887BB4 /* Contact.swift */,
 				1F0DC16522F689C500887BB4 /* LaunchScreen.storyboard */,
 				1F0DC16822F689C500887BB4 /* Info.plist */,
 			);
@@ -147,6 +150,7 @@
 			files = (
 				1F0DC15F22F689C200887BB4 /* DetailViewController.swift in Sources */,
 				1F0DC15D22F689C200887BB4 /* MasterViewController.swift in Sources */,
+				1F0DC17322F6956300887BB4 /* Contact.swift in Sources */,
 				1F0DC15B22F689C200887BB4 /* AppDelegate.swift in Sources */,
 				1F0DC17122F694A600887BB4 /* PlistLoader.swift in Sources */,
 			);
